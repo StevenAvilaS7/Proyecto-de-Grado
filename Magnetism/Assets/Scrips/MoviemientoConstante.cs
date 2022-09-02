@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoviemientoConstante : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float velocidad=7f;
+    public float velocidad=10f;
 
     void Start()
 
