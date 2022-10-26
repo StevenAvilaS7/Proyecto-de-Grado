@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ParticleManager : MonoBehaviour
 {
     private float cycleInterval=0.01f;
     private List<ChargedParticle> chargedParticles;
     private List<MovingChargedParticle> movingChargedParticles;
+    private ChargedParticle chargedParticle1;
 
     void Start()
     {
         chargedParticles = new List<ChargedParticle> (FindObjectsOfType<ChargedParticle>());
         movingChargedParticles= new List<MovingChargedParticle> (FindObjectsOfType<MovingChargedParticle>());
-        
         foreach (MovingChargedParticle mcp in movingChargedParticles){
             StartCoroutine (Cycle (mcp));
         }
