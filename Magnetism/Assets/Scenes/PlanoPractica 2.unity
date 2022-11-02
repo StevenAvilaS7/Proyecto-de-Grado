@@ -747,6 +747,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &13370822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6103,6 +6114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plane: {fileID: 0}
+  CanvasObject: {fileID: 0}
 --- !u!1001 &1167230479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10133,6 +10145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plane: {fileID: 1165347482}
+  CanvasObject: {fileID: 845967978}
 --- !u!4 &1835386280
 Transform:
   m_ObjectHideFlags: 0
