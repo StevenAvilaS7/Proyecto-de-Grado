@@ -18,6 +18,7 @@ public class BarraCargadaController : MonoBehaviour
         for(int i=0;i<15;i++){
             esferas[i].gameObject.SetActive(false);
         }
+        
     }
 
     // Update is called once per frame
