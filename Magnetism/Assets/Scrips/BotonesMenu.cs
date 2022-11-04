@@ -4,7 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class BotonesMenu : MonoBehaviour
-{
+{   
+    public void menuPrincipal()
+    {   
+        SceneManager.LoadScene(0);
+        Debug.Log("Menu");
+
+    }
     public void practica1()
     {   
         SceneManager.LoadScene(1);

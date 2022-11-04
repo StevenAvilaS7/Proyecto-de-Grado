@@ -18,22 +18,6 @@ public class ChargedParticle : MonoBehaviour
 
     }
 
-        public void readString(string inputLabel){
-        charge = float.Parse(inputLabel);
-        Start();
-        Debug.Log("Se entra carga esfera");
-    }
-
-    public void readChargeBar1(string inputLabel){
-        charge = float.Parse(inputLabel);
-        Start();
-        Debug.Log("Se entra barra 1");
-    }
-    public void readChargeBar2(string inputLabel){
-        charge = float.Parse(inputLabel);
-        Start();
-        Debug.Log("Se entra barra 2");
-    }
     public void SetMasaEsfera(float value)
 	{
 		OnValueChanged(value, 0);
