@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenarioPrincipal.unity
     guid: e6cea4fa13a2ade4db6957a39a2d1bb4
   - enabled: 1
-    path: Assets/Scenes/PlanoPractica 3.unity
+    path: Assets/Scenes/PlanoPractica 1.unity
+    guid: cd18866f46c672d4d86b40bd818b3e8a
+  - enabled: 1
+    path: Assets/Scenes/PlanoPractica 2.unity
     guid: 87e31c54b638ff744ab9596b6f6a1762
+  - enabled: 1
+    path: Assets/Scenes/PlanoPractica 3.unity
+    guid: 3ea8e74bc153b1247baf62d1dc18118f
   m_configObjects: {}

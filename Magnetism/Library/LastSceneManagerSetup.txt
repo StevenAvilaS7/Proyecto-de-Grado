@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PlanoPractica 3.unity
+- path: Assets/Scenes/EscenarioPrincipal.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

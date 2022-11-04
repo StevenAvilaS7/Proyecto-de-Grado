@@ -8,14 +8,17 @@ public class MoviemientoConstante : MonoBehaviour
     public float velocidad=10f;
 
     void Start()
-
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position+= new Vector3(0,0,velocidad *Time.deltaTime);
+        transform.position+= new Vector3(velocidad *Time.deltaTime,0,0);
     }
+    public void SetVelocidadEsfera(float value)
+	{
+		velocidad=value;
+	}
 }
