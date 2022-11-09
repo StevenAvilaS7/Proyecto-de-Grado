@@ -9,6 +9,6 @@ public class ShowSliderValue : MonoBehaviour
 	{
 		Text lbl = GetComponent<Text>();
 		if (lbl != null)
-			lbl.text = Mathf.RoundToInt (value * 100)+"C";
+			lbl.text = Mathf.RoundToInt (value * 100) + "%";
 	}
 }
