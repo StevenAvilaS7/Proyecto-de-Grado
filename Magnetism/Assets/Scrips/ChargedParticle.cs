@@ -48,17 +48,17 @@ public class ChargedParticle : MonoBehaviour
         Debug.Log("Se entra a masa");
         }
         if(channel==1){
-        charge = value;
+        charge = value/2;
         Start();
         Debug.Log("Se entra carga esfera");
         }
         if (channel==2){
-        charge = value;
+        charge = value/2;
         Start();
         Debug.Log("Se entra a Barra Superior");
         }
         if(channel==3){
-        charge = value;
+        charge = value/2;
         Start();
         Debug.Log("Se entra a barra Inferior");
         }
